@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Raffic";
+    src: url("fonts/Raffic/RifficFree-Bold.ttf");
+}
+body {
+    background-color: #f8ecec;
+    text-align: center;
+
+}
+#miss {
+    font-family: Raffic, sans-serif;
+    color: #8c3c3e;
+    background-color: #c98686;
+    border-radius: 10px;
+    padding: 15px;
+}
+.counter {
+    display: inline-flex;
+    align-items: center;
+
+}
+.container {
+    font-family: Raffic, sans-serif;
+    color: #8c3c3e;
+    font-size: 16px;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#plus {
+    font-family: Raffic, sans-serif;
+    color: #8c3c3e;
+    font-size: 50px;
+    padding: 7px 20px;
+    text-align: center;
+    border: solid 4px #8c3c3e;
+    border-radius: 10px;
+    background-color: #f8d5d5;
+    position: absolute;
+    bottom: 7%;
+    right: 7%;
+ }
+#plus:hover {
+    background-color: #c59090;
+    cursor: pointer;
+}
